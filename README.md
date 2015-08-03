@@ -30,3 +30,9 @@ implement I2C properly.
 ## delayMicroseconds
 
 See this issue: <https://github.com/rambo/TinyWire/issues/8> (remember to declare the function void if you copy-paste it verbatim)
+
+## License
+
+Licensed under the GPLv2 as I could not find a license on the original code. If any of the original authors object to this, please contact me and I will change it and/or take it down as need be.
+
+My own contributions will remain under the GPLv2 or some other OSSF compatible license.
