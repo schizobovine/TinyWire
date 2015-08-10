@@ -3,6 +3,7 @@
  */
 
 #include <TinyWireS.h>
+#include "i2c.h"
 
 // Initial/current register values
 volatile uint8_t i2c_regs[] = {
@@ -13,10 +14,10 @@ volatile uint8_t i2c_regs[] = {
 };
 
 // Register mem block size
-const byte reg_size = sizeof(i2c_regs);
+const uint8_t reg_size = sizeof(i2c_regs);
 
 // Tracks the current register pointer position
-volatile byte reg_position;
+volatile uint8_t reg_position;
 
 /**
  * This is called for each read request we receive, never put more than one
